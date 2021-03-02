@@ -1,0 +1,28 @@
+header {
+    width: 100%;
+    height: 95px;
+    top: 0;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border: 1px solid red;
+    div{
+        margin-top: 0px;
+        //width: 375px;
+        height: 5px;
+        background-color: #572EE5;
+    }
+}
+
+// POSICIONAMIENTO DE LOGO Y NAV EN EL HEADER
+header img {
+    float: left;
+    margin-top: 29px;
+    margin-left: 22px;
+    width: 48.8px;
+}
+header nav {
+    float: right;
+    margin-top:10px;
+    margin-right: 6%;
+}
