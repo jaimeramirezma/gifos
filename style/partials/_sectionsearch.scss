@@ -2,23 +2,76 @@
     margin-top: 95px;
     //width: 375px;
     height: 470px;
-    border: 1px solid red;
-    p{
+    //border: 1px solid red;
+    .contenedor_texto_imagen{
+        h1{
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 900;
+            font-size: 25px;
+            color: #572EE5;
+            text-align: center;
+            line-height: 33px;
+            margin-top: 7px;
+            margin-left: 44px;
+            margin-right: 44px;
+            span{
+                font-family: 'Montserrat', sans-serif;
+                font-size: 25px;
+                color: #75e9d4;
+                text-align: center;
+                line-height: 33px;
+            }
+        }
+        img{
+            margin-top: 31px;
+            width: 273px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+
+    }
+   
+    .contenedor_buscador{
+        display: flex;
+        width: 334px;
+        height: 50px;
+        background: #FFFFFF;
+        border: 1px solid #572EE5;
+        border-radius: 27px;
+        justify-content: center;
+        input{
+            width: 215px;
+            height: 22px;
+            margin-left: 55px;
+            margin-top: 13px;
+            font-family: 'Roboto', sans-serif;
+        }
+        img{
+            width: 20px;
+            align-self: center; 
+        }
+    }
+    h2{
+        margin-top: 31px;
         font-family: 'Montserrat', sans-serif;
-        font-size: 25px;
+        font-weight: 900;
+        font-size: 16px;
         color: #572EE5;
         text-align: center;
-        line-height: 33px;
-        margin-top: 7px;
-        margin-left: 44px;
-        margin-right: 44px;
+        line-height: 25px;
     }
-    img{
-        margin-top: 31px;
-        width: 273px;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
+    p{
+        margin-top: 2px;
+        margin-right: 75px;
+        margin-left: 75px;
+        font-family: 'Montserrat';
+        font-weight: 600;
+        font-size: 14px;
+        color: #572EE5;
+        text-align: center;
+        line-height: 25px;
     }
+
 }
 

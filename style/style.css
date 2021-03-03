@@ -15,7 +15,7 @@ header {
   left: 50%;
   -webkit-transform: translate(-50%, 0);
           transform: translate(-50%, 0);
-  border: 1px solid red;
+  background: rgba(255, 255, 255, 0.9);
 }
 
 header div {
@@ -37,9 +37,12 @@ header nav {
   margin-right: 6%;
 }
 
+header nav img {
+  width: 15px;
+}
+
 footer {
   height: 196px;
-  border: 1px solid red;
 }
 
 footer h1 {
@@ -75,11 +78,11 @@ footer div {
 .search {
   margin-top: 95px;
   height: 470px;
-  border: 1px solid red;
 }
 
-.search p {
+.search .contenedor_texto_imagen h1 {
   font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
   font-size: 25px;
   color: #572EE5;
   text-align: center;
@@ -89,7 +92,15 @@ footer div {
   margin-right: 44px;
 }
 
-.search img {
+.search .contenedor_texto_imagen h1 span {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  color: #75e9d4;
+  text-align: center;
+  line-height: 33px;
+}
+
+.search .contenedor_texto_imagen img {
   margin-top: 31px;
   width: 273px;
   margin-left: auto;
@@ -97,10 +108,61 @@ footer div {
   display: block;
 }
 
+.search .contenedor_buscador {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 334px;
+  height: 50px;
+  background: #FFFFFF;
+  border: 1px solid #572EE5;
+  border-radius: 27px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.search .contenedor_buscador input {
+  width: 215px;
+  height: 22px;
+  margin-left: 55px;
+  margin-top: 13px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.search .contenedor_buscador img {
+  width: 20px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.search h2 {
+  margin-top: 31px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 16px;
+  color: #572EE5;
+  text-align: center;
+  line-height: 25px;
+}
+
+.search p {
+  margin-top: 2px;
+  margin-right: 75px;
+  margin-left: 75px;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 14px;
+  color: #572EE5;
+  text-align: center;
+  line-height: 25px;
+}
+
 .trending {
   background-color: #F3F5F8;
   height: 470px;
-  border: 1px solid blue;
+  border: 0.1px solid white;
 }
 
 .trending h1 {
@@ -118,5 +180,31 @@ footer div {
   font-size: 16px;
   text-align: center;
   line-height: 23px;
+}
+
+.favorites_mygifos {
+  margin-top: 95px;
+  height: 108px;
+  text-align: center;
+}
+
+.favorites_mygifos img {
+  margin-top: 5px;
+  width: 25px;
+}
+
+.favorites_mygifos h1 {
+  margin-top: 7px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: #572EE5;
+  text-align: center;
+  line-height: 30px;
+}
+
+.gallery {
+  height: 1043px;
+  text-align: center;
+  border: 1px solid red;
 }
 /*# sourceMappingURL=style.css.map */
