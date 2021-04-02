@@ -342,23 +342,29 @@ footer #borde_inferior {
   }
 }
 
-.ham {
+.boton_hamburguesa {
   position: fixed;
   /* keep the hamburger button above everything */
   z-index: 100;
-  top: 1.8rem;
-  right: 1rem;
-  width: 3rem;
-  height: 3rem;
+  top: 10%;
+  right: 10%;
   background: white;
 }
 
-.ham .xIcon {
+.boton_hamburguesa .menuIcon img {
+  width: 25px;
+}
+
+.boton_hamburguesa .xIcon {
   display: none;
 }
 
+.boton_hamburguesa .xIcon img {
+  width: 25px;
+}
+
 .contenedor_menu {
-  margin-left: 5%;
+  margin-left: 10%;
 }
 
 .contenedor_menu .menu {

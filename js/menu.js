@@ -1,7 +1,7 @@
-var menu = document.querySelector(".menu")
-var ham = document.querySelector(".ham")
-var xIcon = document.querySelector(".xIcon")
-var menuIcon = document.querySelector(".menuIcon")
+let menu = document.querySelector(".menu")
+let ham = document.querySelector(".boton_hamburguesa")
+let xIcon = document.querySelector(".xIcon")
+let menuIcon = document.querySelector(".menuIcon")
 
 ham.addEventListener("click", toggleMenu)
 
@@ -17,7 +17,7 @@ function toggleMenu() {
     }
 }
 
-var menuLinks = document.querySelectorAll(".menuLink")
+let menuLinks = document.querySelectorAll(".menuLink")
 
 menuLinks.forEach(
     function (menuLink) {

@@ -5,33 +5,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- JavaScript -->
-    <script type="text/javascript" src="./js/app.js"></script>
     <!-- CSS -->
     <link rel="stylesheet" href="./style/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Fuente Roboto Regular - Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
-    <title>Gifos</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Home</title>
 </head>
 
 <body>
     <header>
         <div id="borde_superior"></div>
-        <img src="./assets/images/logo-desktop.svg" alt="logo-desktop.svg">
-
+        <img src="./assets/images/logo-mobile.svg" alt="logo-desktop.svg">
         <div id="imagen_crear_gifo">
             <img src="./assets/images/button-crear-gifo.svg" alt="crear_gifo.svg" width="100">
         </div>
         <nav>
-            <div id="imagen_hamburguesa"><img src="./assets/images/burger.svg" alt="burger.svg"></div>
-            <div class="menu">
-                <ul>
-                    <li><a href="./index.html">MODO NOCTURNO </a></li>
-                    <li><a href="./favoritos.html">FAVORITOS</a></li>
-                    <li><a href="./mis_gifos.html">MIS GIFOS</a></li>
+            <!-- <div class="imagen_hamburguesa"><img src="./assets/images/burger.svg" alt="burger.svg" width="10"></div> -->
+            <button class="ham">
+                <!-- X and menu icon SVGs from material icons https://material.io/resources/icons/ -->
+                <span class="menuIcon material-icons">
+                    menu
+                </span>
+                <span class="xIcon material-icons">
+                    close
+                </span>
+            </button>
+            <div class="contenedor_menu">
+                <ul class="menu">
+                    <li><a class="menuLink" href="./index.html">Modo Nocturno </a></li>
+                    <li><a class="menuLink" href="./favoritos.html">Favoritos</a></li>
+                    <li><a class="menuLink" href="./mis_gifos.html">Mis Gifos</a></li>
                 </ul>
             </div>
         </nav>
@@ -75,7 +84,8 @@
 
         <div id="borde_inferior"></div>
     </footer>
-
+    <!-- JavaScript -->
+    <script src="./js/menu.js"></script>
 </body>
 
 </html>
