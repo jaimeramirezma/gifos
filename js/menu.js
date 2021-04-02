@@ -1,11 +1,11 @@
-let menu = document.querySelector(".menu")
-let ham = document.querySelector(".boton_hamburguesa")
-let xIcon = document.querySelector(".xIcon")
-let menuIcon = document.querySelector(".menuIcon")
+let menu = document.querySelector(".menu");
+let hamburguesa = document.querySelector(".boton_hamburguesa");
+let xIcon = document.querySelector(".xIcon");
+let menuIcon = document.querySelector(".menuIcon");
 
-ham.addEventListener("click", toggleMenu)
+hamburguesa.addEventListener("click", modificarMenu);
 
-function toggleMenu() {
+function modificarMenu() {
     if (menu.classList.contains("showMenu")) {
         menu.classList.remove("showMenu");
         xIcon.style.display = "none";
@@ -17,27 +17,10 @@ function toggleMenu() {
     }
 }
 
-let menuLinks = document.querySelectorAll(".menuLink")
+let menuLinks = document.querySelectorAll(".menuLink");
 
-menuLinks.forEach(
-    function (menuLink) {
-        menuLink.addEventListener("click", toggleMenu)
-    }
-)
-
-
-/*
-let menuHamburguesa = document.getElementById('imagen_hamburguesa');
-
-menuHamburguesa.addEventListener('click', () => {
-    myFunction();
-})
-
-function myFunction() {
-    let x = document.getElementById("myLinks");
-    if (x.style.display === "block") {
-        x.style.display = "none";
-    } else {
-        x.style.display = "block";
-    }
-} */
+if (screen.width < 1200) {
+    menuLinks.forEach(function (menuLink) {
+        menuLink.addEventListener("click", modificarMenu)
+    })
+}

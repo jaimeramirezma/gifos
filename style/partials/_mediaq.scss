@@ -13,30 +13,42 @@
             width: 48.8px;
         }     
         nav{
+            //border: 1px solid blue;
             margin-top:10px;
             margin-right: 2%;
-            .imagen_hamburguesa{
+            .boton_hamburguesa{
                 display: none;
             }
-            .menu{
-                margin-top: 8%;
+            .contenedor_menu{
+                //border: 1px solid red;
                 font-family:'Montserrat', sans-serif;
                 font-size: 13px;
                 color: #572EE5;
-                ul{
-                    position: unset;
-                    overflow: unset;
-                    li {
-                        display: inline-block;
-                        padding-inline: 12px;
+                width: 500px;
+                height: 20px;
+                display: flex;
+
+                .menu{
+                    background: white;
+                    transform:none;
+                    transition: none;
+                    display: flex;
+                    .menuLink {
+                        padding-inline:30px;
+                        color:  #572EE5;
                     } 
                 }
+                .showMenu {
+                    transform:unset;
+                    width: 0px;
+                    height: 0px;
+                  }
             }
         }
         #imagen_crear_gifo{
             display: inline-flex;
             margin-right: 10%;
-            margin-top: -.5%;
+            margin-top: 0%;
         }
 
     }

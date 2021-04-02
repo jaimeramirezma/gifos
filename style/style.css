@@ -25,7 +25,7 @@ header #borde_superior {
   background-color: #572EE5;
 }
 
-header img {
+header #logo_gifos img {
   float: left;
   margin-top: 29px;
   margin-left: 6%;
@@ -39,7 +39,7 @@ header #imagen_crear_gifo {
 
 header nav {
   float: right;
-  margin-top: 10px;
+  margin-top: 40px;
   margin-right: 10%;
 }
 
@@ -234,29 +234,45 @@ footer #borde_inferior {
     margin-top: 10px;
     margin-right: 2%;
   }
-  header nav .imagen_hamburguesa {
+  header nav .boton_hamburguesa {
     display: none;
   }
-  header nav .menu {
-    margin-top: 8%;
+  header nav .contenedor_menu {
     font-family: 'Montserrat', sans-serif;
     font-size: 13px;
     color: #572EE5;
+    width: 500px;
+    height: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
-  header nav .menu ul {
-    position: unset;
-    overflow: unset;
+  header nav .contenedor_menu .menu {
+    background: white;
+    -webkit-transform: none;
+            transform: none;
+    -webkit-transition: none;
+    transition: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
-  header nav .menu ul li {
-    display: inline-block;
-    padding-inline: 12px;
+  header nav .contenedor_menu .menu .menuLink {
+    padding-inline: 30px;
+    color: #572EE5;
+  }
+  header nav .contenedor_menu .showMenu {
+    -webkit-transform: unset;
+            transform: unset;
+    width: 0px;
+    height: 0px;
   }
   header #imagen_crear_gifo {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
     margin-right: 10%;
-    margin-top: -.5%;
+    margin-top: 0%;
   }
   .search {
     margin-top: 150px;
@@ -342,32 +358,32 @@ footer #borde_inferior {
   }
 }
 
-.boton_hamburguesa {
+nav .boton_hamburguesa {
   position: fixed;
   /* keep the hamburger button above everything */
-  z-index: 100;
-  top: 10%;
+  top: 40%;
+  z-index: 10;
   right: 10%;
   background: white;
 }
 
-.boton_hamburguesa .menuIcon img {
+nav .boton_hamburguesa .menuIcon img {
   width: 25px;
 }
 
-.boton_hamburguesa .xIcon {
+nav .boton_hamburguesa .xIcon {
   display: none;
 }
 
-.boton_hamburguesa .xIcon img {
+nav .boton_hamburguesa .xIcon img {
   width: 25px;
 }
 
-.contenedor_menu {
+nav .contenedor_menu {
   margin-left: 10%;
 }
 
-.contenedor_menu .menu {
+nav .contenedor_menu .menu {
   background: #572EE5;
   color: #FFFFFF;
   -webkit-transform: translateY(-150%);
@@ -378,19 +394,19 @@ footer #borde_inferior {
   transition: transform 0.1s, -webkit-transform 0.1s;
 }
 
-.contenedor_menu .showMenu {
-  -webkit-transform: translateY(0);
-          transform: translateY(0);
+nav .contenedor_menu .showMenu {
+  -webkit-transform: translateY(-10%);
+          transform: translateY(-10%);
   width: 375px;
   height: 200px;
 }
 
-.contenedor_menu li {
+nav .contenedor_menu li {
   text-align: center;
   padding-top: 9%;
 }
 
-.contenedor_menu .menuLink {
+nav .contenedor_menu .menuLink {
   display: inline;
   font-family: 'Montserrat', sans-serif;
   font-size: 15x;

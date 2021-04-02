@@ -1,50 +1,53 @@
-.boton_hamburguesa {
-  //border: 1px solid red;
-  position: fixed;
-  /* keep the hamburger button above everything */
-  z-index: 100;
-  top: 10%;
-  right: 10%;
-  background: white;
-  .menuIcon{
-    img{
-      width: 25px;
-    }  
-  }
-  .xIcon {
-    display: none;
-    img{
-      width: 25px;
-    } 
-  }
-}
 
-
-.contenedor_menu{
-  margin-left: 10%;
-  .menu {
-    background: #572EE5;
-    color:  #FFFFFF;
-    transform: translateY(-150%);
-    transition: transform 0.1s;
+nav{
+  .boton_hamburguesa {
+    //border: 1px solid red;
+    position: fixed;
+    /* keep the hamburger button above everything */
+    top: 40%;
+    z-index: 10;
+    right: 10%;
+    background: white;
+    .menuIcon{
+      img{
+        width: 25px;
+      }  
+    }
+    .xIcon {
+      display: none;
+      img{
+        width: 25px;
+      } 
+    }
   }
   
-  .showMenu {
-    transform: translateY(0);
-    width: 375px;
-    height: 200px;
-  }
-  
-  li {
-    text-align: center;
-    padding-top: 9%;
-  }
-  
-  .menuLink {
-    display: inline;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 15x;
-    color: white;
+  .contenedor_menu{
+    margin-left: 10%;
+    .menu {
+      background: #572EE5;
+      color:  #FFFFFF;
+      transform: translateY(-150%);
+      transition: transform 0.1s;
+    }
+    
+    .showMenu {
+      transform: translateY(-10%);
+      width: 375px;
+      height: 200px;
+    }
+    
+    li {
+      text-align: center;
+      padding-top: 9%;
+    }
+    
+    .menuLink {
+      display: inline;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 15x;
+      color: white;
+    }
+    
   }
   
 }
