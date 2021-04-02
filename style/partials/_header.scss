@@ -28,22 +28,11 @@ header {
         margin-top:10px;
         margin-right: 10%;
         //border: 1px solid red;
-        #imagen_hamburguesa{
+        .imagen_hamburguesa{
             img{
                 width: 20px;
             }
         }
-        .menu ul{
-            position: absolute;
-            //right: 0;
-            overflow: hidden;
-            text-decoration:none;
-            background: #0000ec;
-            height: 0px;
-            //display: none;
         
-        }
     }
-
-
 }

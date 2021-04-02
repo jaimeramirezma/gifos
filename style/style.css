@@ -43,16 +43,8 @@ header nav {
   margin-right: 10%;
 }
 
-header nav #imagen_hamburguesa img {
+header nav .imagen_hamburguesa img {
   width: 20px;
-}
-
-header nav .menu ul {
-  position: absolute;
-  overflow: hidden;
-  text-decoration: none;
-  background: #0000ec;
-  height: 0px;
 }
 
 footer {
@@ -242,7 +234,7 @@ footer #borde_inferior {
     margin-top: 10px;
     margin-right: 2%;
   }
-  header nav #imagen_hamburguesa {
+  header nav .imagen_hamburguesa {
     display: none;
   }
   header nav .menu {
@@ -348,5 +340,54 @@ footer #borde_inferior {
   .favorites_mygifos h1 {
     font-size: 25px;
   }
+}
+
+.ham {
+  position: fixed;
+  /* keep the hamburger button above everything */
+  z-index: 100;
+  top: 1.8rem;
+  right: 1rem;
+  width: 3rem;
+  height: 3rem;
+  background: white;
+}
+
+.ham .xIcon {
+  display: none;
+}
+
+.contenedor_menu {
+  margin-left: 5%;
+}
+
+.contenedor_menu .menu {
+  background: #572EE5;
+  color: #FFFFFF;
+  -webkit-transform: translateY(-150%);
+          transform: translateY(-150%);
+  -webkit-transition: -webkit-transform 0.1s;
+  transition: -webkit-transform 0.1s;
+  transition: transform 0.1s;
+  transition: transform 0.1s, -webkit-transform 0.1s;
+}
+
+.contenedor_menu .showMenu {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  width: 375px;
+  height: 200px;
+}
+
+.contenedor_menu li {
+  text-align: center;
+  padding-top: 9%;
+}
+
+.contenedor_menu .menuLink {
+  display: inline;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15x;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */

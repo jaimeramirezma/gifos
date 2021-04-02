@@ -1,0 +1,43 @@
+.ham {
+  position: fixed;
+  /* keep the hamburger button above everything */
+  z-index: 100;
+  top: 1.8rem;
+  right: 1rem;
+  width: 3rem;
+  height: 3rem;
+  background: white;
+  .xIcon {
+    display: none;
+  }
+}
+
+
+.contenedor_menu{
+  margin-left: 5%;
+  .menu {
+    background: #572EE5;
+    color:  #FFFFFF;
+    transform: translateY(-150%);
+    transition: transform 0.1s;
+  }
+  
+  .showMenu {
+    transform: translateY(0);
+    width: 375px;
+    height: 200px;
+  }
+  
+  li {
+    text-align: center;
+    padding-top: 9%;
+  }
+  
+  .menuLink {
+    display: inline;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15x;
+    color: white;
+  }
+  
+}
