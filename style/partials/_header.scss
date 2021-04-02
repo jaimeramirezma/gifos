@@ -26,12 +26,12 @@ header {
     nav {
         float: right;
         margin-top:10px;
-        margin-right: 2%;
-        border: 1px solid red;
+        margin-right: 10%;
+        //border: 1px solid red;
         #imagen_hamburguesa{
-            margin-top:-10px;
-            margin-right:20%;
-            width: 48.8px;
+            img{
+                width: 25px;
+            }
         }
         .menu ul{
             position: absolute;
