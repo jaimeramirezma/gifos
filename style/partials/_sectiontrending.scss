@@ -11,11 +11,15 @@
         text-align: center;
         line-height: 30px;
     }
-    p{
-        margin-top: 7px;
-        font-family: 'Roboto', sans-serif;
-        font-size: 16px;
-        text-align: center;
-        line-height: 23px;
+    #texto{
+        p{
+            //width: 200px;
+            margin-top: 5px;
+            font-family: 'Roboto', sans-serif;
+            font-size: 16px;
+            text-align: center;
+            line-height: 23px;
+        }
     }
+
 }

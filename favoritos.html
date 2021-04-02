@@ -19,10 +19,21 @@
 
 <body>
     <header>
-        <div></div>
-        <img src="./assets/images/logo-mobile.svg" alt="logo-mobile.svg">
+        <div id="borde_superior"></div>
+        <img src="./assets/images/logo-desktop.svg" alt="logo-desktop.svg">
+
+        <div id="imagen_crear_gifo">
+            <img src="./assets/images/button-crear-gifo.svg" alt="crear_gifo.svg" width="100">
+        </div>
         <nav>
-            <img src="./assets/images/burger.svg" alt="burger.svg">
+            <div id="imagen_hamburguesa"><img src="./assets/images/burger.svg" alt="burger.svg"></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="./index.html">MODO NOCTURNO </a></li>
+                    <li><a href="./favoritos.html">FAVORITOS</a></li>
+                    <li><a href="./mis_gifos.html">MIS GIFOS</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
 
@@ -38,24 +49,31 @@
 
     <section class="trending">
         <h1>Trending GIFOS</h1>
-        <p>Mira los últimos <br> GIFOS de nuestra comunidad.</p>
+        <div id="texto">
+            <p>Mira los últimos</p>
+            <p>GIFOS de nuestra comunidad.</p>
+        </div>
+
     </section>
 
     <footer>
-        <h1>Compartir en:</h1>
-        <ul>
-            <li>
-                <img src="./assets/images/icon_facebook.svg" alt="">
-            </li>
-            <li>
-                <img src="./assets/images/icon-twitter.svg" alt="">
-            </li>
-            <li>
-                <img src="./assets/images/icon_instagram.svg" alt="">
-            </li>
-        </ul>
-        <p>© GIFOS 2020 All Rights Reserved.</p>
-        <div></div>
+        <div id="contenido_footer">
+            <h1>Compartir en:</h1>
+            <ul>
+                <li>
+                    <img src="./assets/images/icon_facebook.svg" alt="">
+                </li>
+                <li id="redsocialresaltada">
+                    <img src="./assets/images/icon-twitter.svg" alt="">
+                </li>
+                <li>
+                    <img src="./assets/images/icon_instagram.svg" alt="">
+                </li>
+            </ul>
+            <p>© GIFOS 2020 All Rights Reserved.</p>
+        </div>
+
+        <div id="borde_inferior"></div>
     </footer>
 
 </body>
