@@ -1,9 +1,90 @@
 .creando__gifos{
-    .creando__gifos__contenedor{
+    .creando__gifos__contenedor__principal{
         height: 572px;
         width: 100%;
-        border: 1px solid red;
+        //border: 1px solid yellow;
         margin-top: 95px;
+        .contenedor__interno__superior{
+            height: 390px;
+            //border: 1px solid blue;
+            display: inline-flex;
+            margin-left: 12%;
+            .cis_camara{
+                img{
+                    width: 123px;
+                }
+            }
+            .cis_luz_camara{
+                img{
+                    margin-top: 4px;
+                    width:70px;
+                }
+            }
+            .cis_rectangulo_crear_gifos{
+                height: 390px;
+                width: 688px;
+                border: 1px solid #572EE5;
+                text-align: center;
+                h1{
+                    margin-top: 134px;
+                    font-family: 'Montserrat';
+                    font-size: 25px;
+                    color: #572EE5;
+                    text-align: center;
+                    line-height: 35px;
+                    span{
+                        color: #75e9d4;
+                    }
+                }
+                h2{
+                    margin-top: 6px;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 16px;
+                    color: #000000;
+                    text-align: center;
+                    line-height: 29px;
+                }
+            }
+
+        }
+        .contenedor__interno__medio{
+            height: 75px;
+            //border: 1px solid red;
+            display: flex;
+            margin-left: 445px;
+            .cim__botonera img{
+                margin-left: 25px;                
+            }
+            .cim__pelicula{
+                margin-top: -1.5%;
+                margin-left: 180px;
+            }
+        }
+        .contenedor__interno__inferior{
+            height: 103px;
+            //border: 1px solid red;
+            .cii__rectangulo__delgado{
+                width: 800px;
+                height: 6px;
+                background-color: #572EE5;
+                border-radius: 15px;
+            }
+            .cii__boton__comenzar{
+                margin-top: 20px;
+                width: 127px;
+                height: 50px;
+                border: 1px solid #572EE5;
+                border-radius: 25px;
+                h1{
+                    text-align: center;
+                    margin-top: 16px;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 13px;
+                    color: #572EE5;
+                    letter-spacing: 0;
+                }
+            }
+        }
     }
 
 }
