@@ -44,22 +44,22 @@ header nav {
 }
 
 footer {
-  height: 196px;
+  height: 156px;
 }
 
-footer #footer__contenido {
+footer .footer__contenido {
   height: 150px;
   width: 300px;
 }
 
-footer #footer__contenido h1 {
+footer .footer__contenido h1 {
   margin-top: 47px;
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
   text-align: center;
 }
 
-footer #footer__contenido ul {
+footer .footer__contenido ul {
   margin-top: 22px;
   margin-left: 35%;
   margin-right: 35%;
@@ -68,7 +68,7 @@ footer #footer__contenido ul {
   display: flex;
 }
 
-footer #footer__contenido p {
+footer .footer__contenido p {
   margin-top: 46px;
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
@@ -77,7 +77,7 @@ footer #footer__contenido p {
   color: black;
 }
 
-footer #footer__borde__inferior {
+footer .footer__borde__inferior {
   margin-top: 0px;
   height: 5px;
   background-color: #572EE5;
@@ -309,20 +309,23 @@ footer #footer__borde__inferior {
     left: auto;
     font-size: 18px;
   }
-  footer #footer__contenido {
+  footer {
+    height: 116px;
+  }
+  footer .footer__contenido {
     height: 30px;
     width: 95%;
-    margin-top: 80px;
+    margin-top: 40px;
     display: inline-block;
   }
-  footer #footer__contenido h1 {
+  footer .footer__contenido h1 {
     margin-left: 12%;
     text-align: unset;
     margin-top: 0px;
     display: inline-block;
     font-size: 15px;
   }
-  footer #footer__contenido ul {
+  footer .footer__contenido ul {
     margin-top: 5px;
     margin-left: 1%;
     margin-right: 0%;
@@ -331,17 +334,17 @@ footer #footer__borde__inferior {
     display: -ms-inline-flexbox;
     display: inline-flex;
   }
-  footer #footer__contenido ul li {
+  footer .footer__contenido ul li {
     padding-inline: 12px;
   }
-  footer #footer__contenido p {
+  footer .footer__contenido p {
     margin-top: 0px;
     margin-left: 50%;
     text-align: unset;
     display: inline-block;
   }
-  footer #footer__borde__inferior {
-    margin-top: 80px;
+  footer .footer__borde__inferior {
+    margin-top: 40px;
   }
   .favorites_mygifos {
     margin-top: 140px;
@@ -407,5 +410,12 @@ nav .nav__contenedor__menu .menuLink {
   font-family: 'Montserrat', sans-serif;
   font-size: 15x;
   color: white;
+}
+
+.creando__gifos .creando__gifos__contenedor {
+  height: 572px;
+  width: 100%;
+  border: 1px solid red;
+  margin-top: 95px;
 }
 /*# sourceMappingURL=style.css.map */
