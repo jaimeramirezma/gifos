@@ -269,6 +269,8 @@ footer .footer__borde__inferior {
     display: inline-flex;
     margin-right: 153px;
     margin-top: 23px;
+  }
+  header #header__imagen__crear__gifo img {
     width: 48.8px;
   }
   .search {
