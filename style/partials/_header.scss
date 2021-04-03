@@ -7,22 +7,22 @@ header {
     transform: translate(-50%, 0);
     background: rgba(255, 255, 255, 0.9);
     //border: 1px solid red;
-    #borde_superior{
+    #header__borde__superior{
         margin-top: 0px;
         //width: 375px;
         height: 5px;
         background-color: #572EE5;
     }
-    #logo_gifos{
+    #header__logo__gifos{
         img {
             float: left;
-            margin-top: 29px;
+            margin-top: 25px;
             margin-left: 6%;
-            width: 48.8px;
+            width: 50px;
         }
     }
 
-    #imagen_crear_gifo{
+    #header__imagen__crear__gifo{
         display: none;
         float: right;
     }
@@ -31,11 +31,5 @@ header {
         margin-top:40px;
         margin-right: 10%;
        // border: 1px solid yellow;
-        .imagen_hamburguesa{
-            img{
-                width: 20px;
-            }
-        }
-        
     }
 }

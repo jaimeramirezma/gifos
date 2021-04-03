@@ -3,7 +3,7 @@
 @media screen and (min-width: 1200px){
 // ELEMENTOS DEL HEADER - CAMBIO DE POSICIONES DEL NAV  
     header {
-        #borde_superior{
+        #header__borde__superior{
         background-color: #572EE5;
         }   
         img {
@@ -16,10 +16,10 @@
             //border: 1px solid blue;
             margin-top:10px;
             margin-right: 2%;
-            .boton_hamburguesa{
+            .header__nav__boton__hamburguesa{
                 display: none;
             }
-            .contenedor_menu{
+            .nav__contenedor__menu{
                 //border: 1px solid red;
                 font-family:'Montserrat', sans-serif;
                 font-size: 13px;
@@ -28,7 +28,7 @@
                 height: 20px;
                 display: flex;
 
-                .menu{
+                .nav__lista__menu{
                     background: white;
                     transform:none;
                     transition: none;
@@ -45,7 +45,7 @@
                   }
             }
         }
-        #imagen_crear_gifo{
+        #header__imagen__crear__gifo{
             display: inline-flex;
             margin-right: 10%;
             margin-top: 0%;
@@ -56,7 +56,7 @@
 // ELEMENTOS DE LA SECCIÓN SEARCH - CAMBIO DE POSICIONES
     .search{
         margin-top: 150px;
-        .contenedor_texto_imagen{
+        .search__contenedor__texto__imagen{
             width: 700px;
             h1{
                 font-size: 35px;
@@ -65,7 +65,7 @@
                 width: 400px;
             }
         }
-        .contenedor_buscador{
+        .search__contenedor__buscador{
             width: 551px;
             height: 50px;
             input{
@@ -87,7 +87,7 @@
         h1{
             font-size: 25px; 
         }
-        #texto{
+        #trending__texto{
             width: 500px;
             height: 30px;
             //border: 1px solid red;
@@ -102,7 +102,7 @@
     }
 // ELEMENTOS DE LA SECCIÓN FOOTER - CAMBIO DE POSICIONES
 footer{
-    #contenido_footer{
+    #footer__contenido{
         height: 30px;
         width: 95%;
         //border: 1px solid red;
@@ -134,7 +134,7 @@ footer{
             display: inline-block;
             }
         }
-        #borde_inferior{
+        #footer__borde__inferior{
             margin-top:80px;
         }
     } 

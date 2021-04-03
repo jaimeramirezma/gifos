@@ -1,7 +1,7 @@
-let menu = document.querySelector(".menu");
-let hamburguesa = document.querySelector(".boton_hamburguesa");
-let xIcon = document.querySelector(".xIcon");
-let menuIcon = document.querySelector(".menuIcon");
+let menu = document.querySelector(".nav__lista__menu");
+let hamburguesa = document.querySelector(".header__nav__boton__hamburguesa");
+let xIcon = document.querySelector(".nav__cierre__icon");
+let menuIcon = document.querySelector(".nav__menu__icon");
 
 hamburguesa.addEventListener("click", modificarMenu);
 

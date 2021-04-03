@@ -1,6 +1,6 @@
 
 nav{
-  .boton_hamburguesa {
+  .header__nav__boton__hamburguesa {
     //border: 1px solid red;
     position: fixed;
     /* keep the hamburger button above everything */
@@ -8,12 +8,12 @@ nav{
     z-index: 10;
     right: 10%;
     background: white;
-    .menuIcon{
+    .nav__menu__icon{
       img{
         width: 25px;
       }  
     }
-    .xIcon {
+    .nav__cierre__icon {
       display: none;
       img{
         width: 25px;
@@ -21,9 +21,9 @@ nav{
     }
   }
   
-  .contenedor_menu{
+  .nav__contenedor__menu{
     margin-left: 10%;
-    .menu {
+    .nav__lista__menu {
       background: #572EE5;
       color:  #FFFFFF;
       transform: translateY(-150%);
