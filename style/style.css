@@ -417,16 +417,16 @@ nav .nav__contenedor__menu .menuLink {
 
 .creando__gifos .creando__gifos__contenedor__principal {
   height: 572px;
-  width: 100%;
-  margin-top: 95px;
+  margin-top: 100px;
 }
 
 .creando__gifos .creando__gifos__contenedor__principal .contenedor__interno__superior {
   height: 390px;
+  list-style: none;
+  margin-left: 11%;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  margin-left: 12%;
 }
 
 .creando__gifos .creando__gifos__contenedor__principal .contenedor__interno__superior .cis_camara img {
@@ -442,7 +442,7 @@ nav .nav__contenedor__menu .menuLink {
   height: 390px;
   width: 688px;
   border: 1px solid #572EE5;
-  text-align: center;
+  margin-left: 0px;
 }
 
 .creando__gifos .creando__gifos__contenedor__principal .contenedor__interno__superior .cis_rectangulo_crear_gifos h1 {
@@ -469,19 +469,40 @@ nav .nav__contenedor__menu .menuLink {
 
 .creando__gifos .creando__gifos__contenedor__principal .contenedor__interno__medio {
   height: 75px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-left: 50%;
+}
+
+.creando__gifos .creando__gifos__contenedor__principal .contenedor__interno__medio .cim__botonera {
+  width: 300px;
+  margin-left: -22.5%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 445px;
 }
 
-.creando__gifos .creando__gifos__contenedor__principal .contenedor__interno__medio .cim__botonera img {
+.creando__gifos .creando__gifos__contenedor__principal .contenedor__interno__medio .cim__botonera .cim__botonera__boton {
   margin-left: 25px;
+  width: 32px;
+  height: 32px;
+  border: 1px solid #572EE5;
+  border-radius: 25px;
+}
+
+.creando__gifos .creando__gifos__contenedor__principal .contenedor__interno__medio .cim__botonera .cim__botonera__boton h1 {
+  padding: 5px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #572EE5;
+  letter-spacing: 0;
 }
 
 .creando__gifos .creando__gifos__contenedor__principal .contenedor__interno__medio .cim__pelicula {
   margin-top: -1.5%;
-  margin-left: 180px;
+  margin-left: 80%;
 }
 
 .creando__gifos .creando__gifos__contenedor__principal .contenedor__interno__inferior {
@@ -504,8 +525,62 @@ nav .nav__contenedor__menu .menuLink {
 }
 
 .creando__gifos .creando__gifos__contenedor__principal .contenedor__interno__inferior .cii__boton__comenzar h1 {
+  padding: 16px;
   text-align: center;
-  margin-top: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  color: #572EE5;
+  letter-spacing: 0;
+}
+
+.creando__gifos .creando__gifos__contenedor__principal .contenedor__interno__inferior .cii__boton__grabar {
+  margin-top: 20px;
+  width: 127px;
+  height: 50px;
+  border: 1px solid #572EE5;
+  border-radius: 25px;
+  display: none;
+}
+
+.creando__gifos .creando__gifos__contenedor__principal .contenedor__interno__inferior .cii__boton__grabar h1 {
+  padding: 16px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  color: #572EE5;
+  letter-spacing: 0;
+}
+
+.creando__gifos .creando__gifos__contenedor__principal .contenedor__interno__inferior .cii__boton__subir_gifo {
+  margin-top: 20px;
+  width: 127px;
+  height: 50px;
+  border: 1px solid #572EE5;
+  border-radius: 25px;
+  display: none;
+}
+
+.creando__gifos .creando__gifos__contenedor__principal .contenedor__interno__inferior .cii__boton__subir_gifo h1 {
+  padding: 16px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  color: #572EE5;
+  letter-spacing: 0;
+}
+
+.creando__gifos .creando__gifos__contenedor__principal .contenedor__interno__inferior .cii__boton__finalizar {
+  margin-top: 20px;
+  width: 127px;
+  height: 50px;
+  border: 1px solid #572EE5;
+  border-radius: 25px;
+  display: none;
+}
+
+.creando__gifos .creando__gifos__contenedor__principal .contenedor__interno__inferior .cii__boton__finalizar h1 {
+  padding: 16px;
+  text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-size: 13px;
   color: #572EE5;
