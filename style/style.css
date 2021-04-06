@@ -476,23 +476,22 @@ nav .nav__contenedor__menu .menuLink {
 }
 
 .creando__gifos .creando__gifos__contenedor__principal .contenedor__interno__medio {
+  width: 1120px;
   height: 75px;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  margin-left: 50%;
+  border: 1px dashed white;
 }
 
 .creando__gifos .creando__gifos__contenedor__principal .contenedor__interno__medio .cim__botonera {
-  width: 300px;
-  margin-left: -22.5%;
+  width: 180px;
+  margin-left: 470px;
+  float: left;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
 .creando__gifos .creando__gifos__contenedor__principal .contenedor__interno__medio .cim__botonera .cim__botonera__boton {
-  margin-left: 25px;
+  margin-top: 20px;
   width: 32px;
   height: 32px;
   border: 1px solid #572EE5;
@@ -508,9 +507,42 @@ nav .nav__contenedor__menu .menuLink {
   letter-spacing: 0;
 }
 
+.creando__gifos .creando__gifos__contenedor__principal .contenedor__interno__medio .cim__temporizador {
+  float: left;
+  width: 80px;
+  height: 22px;
+  margin-left: 160px;
+  margin-top: 25px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  color: #572EE5;
+  display: none;
+}
+
+.creando__gifos .creando__gifos__contenedor__principal .contenedor__interno__medio .cii__boton__repetir_captura {
+  float: left;
+  width: 170px;
+  height: 16px;
+  margin-left: 95px;
+  margin-top: 25px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  color: #572EE5;
+}
+
+.creando__gifos .creando__gifos__contenedor__principal .contenedor__interno__medio .cii_linea_inferior_repetir_captura {
+  margin-top: 2px;
+  width: 140px;
+  height: 2px;
+  background-color: #5ED7C6;
+  border-radius: 15px;
+}
+
 .creando__gifos .creando__gifos__contenedor__principal .contenedor__interno__medio .cim__pelicula {
+  float: right;
   margin-top: -1.5%;
-  margin-left: 80%;
 }
 
 .creando__gifos .creando__gifos__contenedor__principal .contenedor__interno__inferior {
@@ -518,6 +550,7 @@ nav .nav__contenedor__menu .menuLink {
 }
 
 .creando__gifos .creando__gifos__contenedor__principal .contenedor__interno__inferior .cii__rectangulo__delgado {
+  margin-top: 73px;
   width: 800px;
   height: 6px;
   background-color: #572EE5;
