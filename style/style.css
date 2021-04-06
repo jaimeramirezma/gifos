@@ -422,15 +422,23 @@ nav .nav__contenedor__menu .menuLink {
 
 .creando__gifos .creando__gifos__contenedor__principal .contenedor__interno__superior {
   height: 390px;
+  width: 1070px;
   list-style: none;
-  margin-left: 11%;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  margin: 0px auto;
+}
+
+.creando__gifos .creando__gifos__contenedor__principal .contenedor__interno__superior .cis_camara {
+  float: left;
+  margin-top: 118px;
 }
 
 .creando__gifos .creando__gifos__contenedor__principal .contenedor__interno__superior .cis_camara img {
   width: 123px;
+}
+
+.creando__gifos .creando__gifos__contenedor__principal .contenedor__interno__superior .cis_luz_camara {
+  float: left;
+  margin-top: 138px;
 }
 
 .creando__gifos .creando__gifos__contenedor__principal .contenedor__interno__superior .cis_luz_camara img {
@@ -439,10 +447,10 @@ nav .nav__contenedor__menu .menuLink {
 }
 
 .creando__gifos .creando__gifos__contenedor__principal .contenedor__interno__superior .cis_rectangulo_crear_gifos {
+  float: left;
   height: 390px;
   width: 688px;
   border: 1px solid #572EE5;
-  margin-left: 0px;
 }
 
 .creando__gifos .creando__gifos__contenedor__principal .contenedor__interno__superior .cis_rectangulo_crear_gifos h1 {

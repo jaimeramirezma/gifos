@@ -5,26 +5,32 @@
         margin-top: 100px;
         .contenedor__interno__superior{
             height: 390px;
+            width: 1070px;
             //border: 1px solid red;
             list-style: none;
-            margin-left: 11%;
-            display: inline-flex;
+            margin: 0px auto;
                 .cis_camara{
+                    float: left;
+                    margin-top: 118px;
+                    //margin-left: 11%;
                     img{
                         width: 123px;
                     }
                 }
                 .cis_luz_camara{
+                    float: left;
+                    margin-top: 138px;
                     img{
                         margin-top: 4px;
                         width:70px;
                     }
                 }
                 .cis_rectangulo_crear_gifos{
+                    float: left;
                     height: 390px;
                     width: 688px;
                     border: 1px solid #572EE5;
-                    margin-left: 0px;
+                    //margin-left: 0px;
                     //text-align: center;
                     h1{
                         margin-top: 134px;
